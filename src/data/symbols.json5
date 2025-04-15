@@ -235,14 +235,14 @@
     name: "Set subset of",
     since: "1817",
     example: "a \\\subset b",
-    code: "let a = new Set(...)\nlet b = new Set(...)\n\na.isSubsetOf(b)"
+    code: "let a = new Set(...)\nlet b = new Set(...)\n\n// Note: this method is new (ES2024)\n// and not yet available in all browsers\na.isSubsetOf(b)"
   },
   {
     symbol: '⊃',
     name: "Set superset of",
     since: "1817",
     example: "a \\\supset b",
-    code: "let a = new Set(...)\nlet b = new Set(...)\n\na.isSupersetOf(b)"
+    code: "let a = new Set(...)\nlet b = new Set(...)\n\n// Note: this method is new (ES2024)\n// and not yet available in all browsers\na.isSupersetOf(b)"
   },
   {
     symbol: '|...|',
@@ -272,14 +272,14 @@
     name: "Intersection",
     since: "1888",
     example: "a \\mathbin{\\cap} b",
-    code: "let a = new Set(...)\nlet b = new Set(...)\n\na.intersection(b)"
+    code: "let a = new Set(...)\nlet b = new Set(...)\n\n// Note: this method is new (ES2024)\n// and not yet available in all browsers\na.intersection(b)"
   },
   {
     symbol: '∪',
     name: "Union",
     since: "1888",
     example: "a \\mathbin{\\cup} b",
-    code: "let a = new Set(...)\nlet b = new Set(...)\n\na.union(b)"
+    code: "let a = new Set(...)\nlet b = new Set(...)\n\n// Note: this method is new (ES2024)\n// and not yet available in all browsers\na.union(b)"
   },
   /*
   {
