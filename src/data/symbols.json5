@@ -253,10 +253,10 @@
   },
   {
     symbol: '‖...‖',
-    name: "Matrix notation",
+    name: "Matrix norm notation",
     since: "1843",
     example: "\\text{\\textbardbl}x\\text{\\textbardbl}",
-    code: "// TODO"
+    code: "// for vectors...\nlet norm = Math.sqrt(\n  x.reduce((sum, value) =>\n    sum + value * value, 0\n  ))\n\n// for matrices...\nlet norm = matrix.reduce(\n  (sum, row) => sum +\n    row.reduce((rowSum, value) =>\n      rowSum + value * value, 0), 0)\nnorm = Math.sqrt(norm)"
   },
   /*
   {
